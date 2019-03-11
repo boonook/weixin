@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/shop/shop",
+    "pages/login/login",
+    "pages/components/tabs/tabs",
+    "pages/components/banner/banner"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "智慧党建",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "assess/images/shop.png",
+        "selectedIconPath": "assess/images/selectShop.png"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "分类",
+        "iconPath": "assess/images/lei.png",
+        "selectedIconPath": "assess/images/selectLei.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我的",
+        "iconPath": "assess/images/my.png",
+        "selectedIconPath": "assess/images/selectMy.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": [
+    "wx689000ec3efb982b"
+  ]
+}

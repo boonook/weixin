@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "京东购物",
+  "usingComponents": {
+    "banner":"../components/banner/banner"
+    }
+}

@@ -1,0 +1,11 @@
+<swiper class='banner' indicator-dots='true' autoplay='true' interval='3000'>
+  <swiper-item>
+    <image src='../../../assess/images/img1.png'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='../../../assess/images/img2.png'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='../../../assess/images/img3.png'></image>
+  </swiper-item>
+</swiper>

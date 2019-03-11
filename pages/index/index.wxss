@@ -1,0 +1,5 @@
+.indexBanner{
+  width:100%;
+  height:100cm;
+  background-color:#ccc
+}
