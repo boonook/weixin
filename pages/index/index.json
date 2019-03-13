@@ -1,6 +1,13 @@
 {
   "navigationBarTitleText": "京东购物",
   "usingComponents": {
-    "banner":"../components/banner/banner"
+    "banner":"../components/banner/banner",
+    "i-button":"../../dist/button/index",
+    "i-grid": "../../dist/grid/index",
+    "i-grid-item": "../../dist/grid-item/index",
+    "i-grid-icon": "../../dist/grid-icon/index",
+    "i-grid-label": "../../dist/grid-label/index",
+    "i-row": "../../dist/row/index",
+    "i-col": "../../dist/col/index"
     }
 }

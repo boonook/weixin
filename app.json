@@ -5,7 +5,8 @@
     "pages/shop/shop",
     "pages/login/login",
     "pages/components/tabs/tabs",
-    "pages/components/banner/banner"
+    "pages/components/banner/banner",
+    "pages/components/detail/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",

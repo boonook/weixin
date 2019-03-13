@@ -1,0 +1,4 @@
+<!--pages/components/detail/detail.wxml-->
+<view>
+  <text>{{data}}</text>
+</view>

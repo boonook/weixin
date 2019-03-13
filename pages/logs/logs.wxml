@@ -1,6 +1,10 @@
 <!--logs.wxml-->
 <view class="container log-list">
-  <block wx:for="{{logs}}" wx:for-item="log">
-    <text class="log-item">{{index + 1}}. {{log}}</text>
-  </block>
+<i-cell-group>
+    <i-cell wx:for="{{logs}}" wx:key="{{log.id}}"  wx:for-item="log" title="{{index+1}}.{{log.title}}" bind:click="onRequest" data-no='{{log}}'></i-cell>
+</i-cell-group>
+  <!-- <block wx:for="{{logs}}" wx:for-item="log" catachtap="onRequest">
+    <text class="log-item">{{index + 1}}. {{log.title}}</text>
+  </block> -->
+  <!-- <i-button type="primary" bind:click="onRequest">发送网络请求</i-button> -->
 </view>

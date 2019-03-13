@@ -11,4 +11,142 @@
     <text class="user-motto">{{motto}}</text>
   </view>
 </view> -->
-<banner id="indexBanner" class="indexBanner"></banner>  
+<view class='indexHead'>
+  <!-- <banner id="indexBanner" class="indexBanner"></banner> -->
+  <!-- <view class='search'>
+    <form>
+      <icon type="success" size="20"class="searchIcon"/><input class='searchInput' name="input" placeholder="按摩椅"/>
+    </form>
+  </view> -->
+  <view>
+  <i-button type="primary" bind:click="onRequest">发送网络请求</i-button>
+  </view>
+  <view class='content'>
+    <view class='content-menu'>
+      <i-grid>
+          <i-grid-item>
+              <i-grid-icon>
+                  <image src='../../assess/homeImg/youhui.png'></image>
+              </i-grid-icon>
+              <i-grid-label>优惠券</i-grid-label>
+          </i-grid-item>
+          <i-grid-item>
+            <i-grid-icon>
+                    <image src='../../assess/homeImg/youhui.png'></image>
+            </i-grid-icon>
+            <i-grid-label>优惠券</i-grid-label>
+          </i-grid-item>
+          <i-grid-item>
+            <i-grid-icon>
+               <image src='../../assess/homeImg/youhui.png'></image>
+            </i-grid-icon>
+            <i-grid-label>优惠券</i-grid-label>
+          </i-grid-item>
+          <i-grid-item>
+            <i-grid-icon>
+               <image src='../../assess/homeImg/youhui.png'></image>
+            </i-grid-icon>
+            <i-grid-label>优惠券</i-grid-label>
+          </i-grid-item>
+      </i-grid>
+      <i-grid>
+          <i-grid-item>
+              <i-grid-icon>
+                  <image src='../../assess/homeImg/youhui.png'></image>
+              </i-grid-icon>
+              <i-grid-label>优惠券</i-grid-label>
+          </i-grid-item>
+          <i-grid-item>
+            <i-grid-icon>
+                    <image src='../../assess/homeImg/youhui.png'></image>
+            </i-grid-icon>
+            <i-grid-label>优惠券</i-grid-label>
+          </i-grid-item>
+          <i-grid-item>
+            <i-grid-icon>
+               <image src='../../assess/homeImg/youhui.png'></image>
+            </i-grid-icon>
+            <i-grid-label>优惠券</i-grid-label>
+          </i-grid-item>
+          <i-grid-item>
+            <i-grid-icon>
+               <image src='../../assess/homeImg/youhui.png'></image>
+            </i-grid-icon>
+            <i-grid-label>优惠券</i-grid-label>
+          </i-grid-item>
+      </i-grid>
+    </view>
+    <view class='content-pinggou'>
+       <view class='goujingxuan'>够·<text>精选</text></view>
+       <view>
+        <i-row>
+            <i-col span="12" i-class="col-class">
+              <view class='content-pinggou-title'>
+                京东手机<text>显示优惠</text>  
+                <view style='text-align:center;'>
+                   <image style='width:60%;padding:5px;' mode="widthFix" src='../../assess/homeImg/iphonex.jpg'></image>
+                </view>
+              </view>
+            </i-col>
+            <i-col span="12" i-class="col-class">
+             <view class='content-pinggou-title'>
+                京东手机
+                <text>显示优惠</text>  
+                <view style='text-align:center;'>
+                   <image style='width:60%;padding:5px;' mode="widthFix" src='../../assess/homeImg/iphonex.jpg'></image>
+                </view>
+              </view>
+            </i-col>
+            <i-col span="12" i-class="col-class"> 
+              <view class='content-pinggou-title'>
+                京东手机<text>显示优惠</text>  
+                <view style='text-align:center;'>
+                   <image style='width:60%;padding:5px;' mode="widthFix" src='../../assess/homeImg/iphonex.jpg'></image>
+                </view>
+              </view>
+            </i-col>
+            <i-col span="12" i-class="col-class">
+             <view class='content-pinggou-title'>
+                京东手机<text>显示优惠</text>  
+                <view style='text-align:center;'>
+                   <image style='width:60%;padding:5px;' mode="widthFix" src='../../assess/homeImg/iphonex.jpg'></image>
+                </view>
+              </view>
+            </i-col>
+            <i-col span="12" i-class="col-class">
+             <view class='content-pinggou-title'>
+                京东手机<text>显示优惠</text>  
+                <view style='text-align:center;'>
+                   <image style='width:60%;padding:5px;' mode="widthFix" src='../../assess/homeImg/iphonex.jpg'></image>
+                </view>
+              </view>
+            </i-col>
+            <i-col span="12" i-class="col-class">
+             <view class='content-pinggou-title'>
+                京东手机<text>显示优惠</text>  
+                <view style='text-align:center;'>
+                   <image style='width:60%;padding:5px;' mode="widthFix" src='../../assess/homeImg/iphonex.jpg'></image>
+                </view>
+              </view>
+            </i-col>
+            <i-col span="12" i-class="col-class">
+             <view class='content-pinggou-title'>
+                京东手机<text>显示优惠</text>  
+                <view style='text-align:center;'>
+                   <image style='width:60%;padding:5px;' mode="widthFix" src='../../assess/homeImg/iphonex.jpg'></image>
+                </view>
+              </view>
+            </i-col>
+            <i-col span="12" i-class="col-class">
+             <view class='content-pinggou-title'>
+                京东手机<text>显示优惠</text>  
+                <view style='text-align:center;'>
+                   <image style='width:60%;padding:5px;' mode="widthFix" src='../../assess/homeImg/iphonex.jpg'></image>
+                </view>
+              </view>
+            </i-col>
+        </i-row>
+       </view>
+    </view>
+  </view> 
+</view>

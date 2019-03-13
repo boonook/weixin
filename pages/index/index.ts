@@ -45,6 +45,38 @@ Page({
       })
     }
   },
+  onRequest(){
+    let params = {
+      page:1,
+      rows:40
+    }
+
+    wx.request({
+      url: 'http://27.17.59.250:8888/api/indexHome/fileManager/list',
+      data: params,
+      method: 'GET', // OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT
+      header: {
+        'content-type': 'application/json'
+      },// 设置请求的 header
+      success: function (res) {
+        if (res.data.code == 200) {
+          let data = res.data||{};
+          let info = data.data || {};
+          let list = info.list||[];
+          app.globalData.content=list;
+          ///console.log(app.globalData.content);
+        } else {
+          console.log("index.js wx.request CheckCallUser statusCode" + res.statusCode);
+        }
+      },
+      fail: function () {
+        console.log("index.js wx.request CheckCallUser fail");
+      },
+      complete: function () {
+        // complete
+      }
+    })
+  },
 
   getUserInfo(e: any) {
     console.log(e)

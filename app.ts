@@ -41,5 +41,6 @@ App<IMyApp>({
     })
   },
   globalData: {
+    content:[];
   }
 })

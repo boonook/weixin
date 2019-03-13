@@ -5,7 +5,21 @@ Page({
    * 页面的初始数据
    */
   data: {
+    current: 'tab1',
+    current_scroll: 'tab1',
+    length:10
+  },
 
+  handleChange({ detail }) {
+    this.setData({
+      current: detail.key,
+    });
+  },
+
+  handleChangeScroll({ detail }) {
+    this.setData({
+      current_scroll: detail.key
+    });
   },
 
   /**

@@ -1,1 +1,7 @@
 /* pages/shop/shop.wxss */
+.shopTabs{
+  padding: 0 5px;
+}
+.shopTabs i-tab{
+  padding: 0 5px;
+}
